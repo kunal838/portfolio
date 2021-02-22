@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="k.svg" class="logo">
+            <div class="header-text">
+                <h1>hey I am kunal</h1><span class="square"></span>
+                <p>
+                    I have command over python and javascript ,<br/> I have done many projects in this . Being a self learner and after deep<br/> introspection I found 
+                    out the zeal in me towards programming 
+                    .</p><button id="menuBtn">projects</button>
+                <div class="line">
+                    <span class="line1"></span><br>
+                    <span class="line2"></span><br>
+                    <span class="line3"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <nav id="sidenav">
+        <ul>
+            <li><a href="https://clone-7bb36.web.app/">Youtube frontend</a></li>
+            <li><a href="https://kunal838.github.io/portfolio_kunal/"> website</a></li>
+            
+            <li><a href="https://twitter-clone-3c380.web.app/">Twitter frontend</a></li>
+            <li><a href="https://github.com/kunal838">Github</a></li>
+            
+
+        </ul>
+    </nav>
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sidenav");
+        sideNav.style.right ="-250px"
+        menuBtn.onclick = function(){
+            if (sideNav.style.right =="-250px") {
+                sideNav.style.right ="0px"
+                
+                
+
+                
+            }else{
+                sideNav.style.right ="-250px"
+
+            }
+        }
+    </script>
+   
+</body>
+</html>
